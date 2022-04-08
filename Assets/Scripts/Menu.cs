@@ -9,4 +9,8 @@ public class Menu : MonoBehaviour
   {
         SceneManager.LoadScene("Story");
   }
+    public void Character()
+    {
+        SceneManager.LoadScene("Characters");
+    }
 }
