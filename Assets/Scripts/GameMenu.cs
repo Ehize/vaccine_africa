@@ -5,10 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
-    public void Play()
-    {
-        SceneManager.LoadScene("Story");
-    }
+   
     public void Character()
 
     {
@@ -37,5 +34,30 @@ public class GameMenu : MonoBehaviour
     {
         rewards.SetActive(true);
     }
+    public void YouWin(GameObject win)
+    {
+        win.SetActive(true);
+    }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene("Next Level");
+    }
+    public void Challenge()
+    {
+        SceneManager.LoadScene("Challenge");
+    }
+    public void Reward()
+    {
+        SceneManager.LoadScene("Reward");
+    }
+    public void AdvancedGameplay()
+    {
+        SceneManager.LoadScene("Advanced Gameplay");
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    
 }
 
