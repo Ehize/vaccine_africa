@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Maliyo.unity
+    guid: b04fec126b7c6d642bd69c10da07c00c
+  - enabled: 1
+    path: Assets/Scenes/Splash Screen.unity
+    guid: 53d21df7103e56b44a99c3b86f375179
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Game Guide.unity
+    guid: d3172d87078b9764698548217acf2931
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: fde13501512432b4f8dea9952cea2a6f
+  - enabled: 1
+    path: Assets/Scenes/Swipe Menu.unity
+    guid: fefe3a3b949b25b47836987ddfb52935
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 2a9070d419e06204dabff97db0cceecc
+  - enabled: 1
+    path: Assets/Scenes/Advanced Gameplay.unity
+    guid: 16eec1a50f23e9b4ea784fe2f13c8ed3
+  - enabled: 1
+    path: Assets/Scenes/Challenge.unity
+    guid: 00527d73ec8d7a641a49b17f4a5a130a
+  - enabled: 1
+    path: Assets/Scenes/Next Level.unity
+    guid: c79fd1782c5a87146991158664446980
+  - enabled: 1
+    path: Assets/Scenes/Reward.unity
+    guid: f6633a2b2daf775458971cc3a1fb8263
   m_configObjects: {}
