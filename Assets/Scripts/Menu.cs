@@ -4,13 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
-{
-  public void Play()
-  {
-        SceneManager.LoadScene("Story");
-  }
-    public void Character()
+{ 
+    public void Play()
     {
-        SceneManager.LoadScene("Characters");
+        SceneManager.LoadScene("");
     }
+
+    public void SwipeMenu()
+    {
+        SceneManager.LoadScene("Swipe Menu");
+    }
+   
 }
