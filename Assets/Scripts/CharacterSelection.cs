@@ -44,4 +44,9 @@ public class CharacterSelection : MonoBehaviour
         SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
     }
 
+    public void GoBack()
+    {
+        SceneManager.LoadScene("Swipe Menu");
+    }
+
 }

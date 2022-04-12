@@ -12,20 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash Screen.unity
     guid: 53d21df7103e56b44a99c3b86f375179
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Story.unity
+    guid: fde13501512432b4f8dea9952cea2a6f
+  - enabled: 1
+    path: Assets/Scenes/Swipe Menu.unity
+    guid: fefe3a3b949b25b47836987ddfb52935
   - enabled: 1
     path: Assets/Scenes/Characters.unity
     guid: 53c9201739db06f4ba15f89cff09086c
   - enabled: 1
     path: Assets/Scenes/Game Tutorial.unity
     guid: d3172d87078b9764698548217acf2931
-  - enabled: 1
-    path: Assets/Scenes/Story.unity
-    guid: fde13501512432b4f8dea9952cea2a6f
-  - enabled: 1
-    path: Assets/Scenes/Swipe Menu.unity
-    guid: fefe3a3b949b25b47836987ddfb52935
   - enabled: 1
     path: Assets/Scenes/Welcome Reward.unity
     guid: 86c5f194da9aae24184e21b87b0f473f
