@@ -23,6 +23,18 @@ public class TextTranstion : MonoBehaviour
             StartCoroutine(NextSlide());
         
     }
+    public void Skip1()
+    {
+        scene2.SetActive(true);
+    }
+    public void Skip2()
+    {
+        scene3.SetActive(true);
+    }
+    public void Skip3()
+    {
+        scene4.SetActive(true);
+    }
     IEnumerator NextSlide()
     {
         yield return new WaitForSeconds(5);

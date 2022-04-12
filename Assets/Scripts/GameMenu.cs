@@ -15,16 +15,18 @@ public class GameMenu : MonoBehaviour
 
     public void SwipeMenu()
     {
+       
         SceneManager.LoadScene("Swipe Menu");
     }
 
+
     public void Yes()
     {
-        SceneManager.LoadScene("Game Guide");
+        SceneManager.LoadScene("Game Tutorial");
     }
     public void No()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("Characters");
     }
     public void NextTutorial(GameObject controls)
     {
@@ -53,6 +55,10 @@ public class GameMenu : MonoBehaviour
     public void AdvancedGameplay()
     {
         SceneManager.LoadScene("Advanced Gameplay");
+    }
+    public void WelcomeBonus()
+    {
+        SceneManager.LoadScene("Welcome Reward");
     }
     public void QuitGame()
     {
