@@ -35,13 +35,13 @@ public class CharacterSelection : MonoBehaviour
     {
 
         PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
-        SceneManager.LoadScene("Game Guide", LoadSceneMode.Single);
+        SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
     }
 
     public void DefaultStart()
     {
         PlayerPrefs.SetInt("selectedCharacter", 0);
-        SceneManager.LoadScene("Game Guide", LoadSceneMode.Single);
+        SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
     }
 
 }
