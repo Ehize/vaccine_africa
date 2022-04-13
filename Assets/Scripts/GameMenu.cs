@@ -52,6 +52,10 @@ public class GameMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Reward");
     }
+    public void Story()
+    {
+        SceneManager.LoadScene("Story");
+    }
     public void AdvancedGameplay()
     {
         SceneManager.LoadScene("Advanced Gameplay");
@@ -59,6 +63,10 @@ public class GameMenu : MonoBehaviour
     public void WelcomeBonus()
     {
         SceneManager.LoadScene("Welcome Reward");
+    }
+    public void SplashScreen()
+    {
+        SceneManager.LoadScene("Splash Screen");
     }
     public void QuitGame()
     {
